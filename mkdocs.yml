@@ -183,6 +183,7 @@ nav:
   - অথবা শুধুমাত্র NSOT: contents2.md
   - কেন NSoT ছাড়া স্কেল করা অসম্ভব: nsot_scale.md
   - ইনটেন্ডেড স্টেট বনাম অ্যাকচুয়াল স্টেট: two_states.md
+  - NSoT-এর কোর প্রিন্সিপাল এবং Nautobot: nsot_core.md
   - বইটা এখনো লেখা চলছে: status.md
 #     - কৃতজ্ঞতা এবং বাড়তি রিডিং: courtesy.md
 # #    - কেন বইটা লিখতে চাইলাম?: why-writing.md
