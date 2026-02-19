@@ -24,6 +24,16 @@ Nautobot 3.0 এ সবচেয়ে বড় পরিবর্তন হল
 
 Organization App হলো Nautobot এর ভিত্তি। এখানে আপনার নেটওয়ার্কের organizational structure define করবেন।
 
+**Key Objects:**
+
+- **Locations**
+- **Location Types**  
+- **Tenants**  
+- **Tenant Groups** 
+- **Teams**
+
+---
+
 #### Locations - সবচেয়ে গুরুত্বপূর্ণ পরিবর্তন
 
 **Nautobot 2.x এ ছিল:** Sites (একটা ফ্ল্যাট লিস্ট)
