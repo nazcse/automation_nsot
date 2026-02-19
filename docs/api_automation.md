@@ -107,6 +107,7 @@ Total devices: 152
 
 ```python
 from pynautobot import api
+
 ## Nautobot connection
 nb = api(url="https://nautobot.nirvorcommunication.bd",token="your-api-token")
 ## শুধু Mirpur POP এর ডিভাইস
