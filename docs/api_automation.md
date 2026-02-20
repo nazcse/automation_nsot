@@ -547,7 +547,7 @@ for device in large_list:
     time.sleep(0.1)  ## ১০০ms delay
 ```
 
-NirvorCommunication  Bangladesh এখন Nautobot কে অটোমেট করতে পারছে। আসিফ আর ম্যানুয়ালি ক্লিক করে সময় নষ্ট করে না। একটা স্ক্রিপ্ট লিখে সে ৫০টা ডিভাইস ৫ মিনিটে যোগ করতে পারে।
+NirvorCommunication Bangladesh এখন Nautobot কে অটোমেট করতে পারছে। আসিফ আর ম্যানুয়ালি ক্লিক করে সময় নষ্ট করে না। একটা স্ক্রিপ্ট লিখে সে ৫০টা ডিভাইস ৫ মিনিটে যোগ করতে পারে।
 
 পরবর্তী স্টেপ হলো আরো এডভান্সড অটোমেশন - Ansible integration, Golden Config management, এবং ১ লক্ষ কাস্টমারের দিকে যাত্রা।
 
