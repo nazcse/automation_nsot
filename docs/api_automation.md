@@ -57,7 +57,7 @@ from pynautobot import api
 
 ## Nautobot connection
 nb = api(
-    url="https://nautobot.nirvorcommunication.bd",
+    url="https://nautobot.nirvor.bd",
     token="your-api-token"
 )
 
@@ -80,7 +80,7 @@ python hello_nautobot.py
 ```python
 from pynautobot import api
 
-nb = api(url="https://nautobot.nirvorcommunication.bd", token="your-api-token")
+nb = api(url="https://nautobot.nirvor.bd", token="your-api-token")
 
 ## সব ডিভাইস নিয়ে আসুন
 devices = nb.dcim.devices.all()
@@ -109,7 +109,7 @@ Total devices: 152
 from pynautobot import api
 
 ## Nautobot connection
-nb = api(url="https://nautobot.nirvorcommunication.bd",token="your-api-token")
+nb = api(url="https://nautobot.nirvor.bd",token="your-api-token")
 ## শুধু Mirpur POP এর ডিভাইস
 mirpur_devices = nb.dcim.devices.filter(location="Mirpur POP")
 print(f"Mirpur devices: {len(mirpur_devices)}")
@@ -135,7 +135,7 @@ active_switches = nb.dcim.devices.filter(
 ```python
 from pynautobot import api
 
-nb = api(url="https://nautobot.nirvorcommunication.bd", token="your-api-token")
+nb = api(url="https://nautobot.nirvor.bd", token="your-api-token")
 
 prefixes = nb.ipam.prefixes.all()
 
@@ -179,7 +179,7 @@ Prefix: 103.125.48.0/24
 ```python
 from pynautobot import api
 
-nb = api(url="https://nautobot.nirvorcommunication.bd", token="your-api-token")
+nb = api(url="https://nautobot.nirvor.bd", token="your-api-token")
 
 new_device = nb.dcim.devices.create(
     name="SW-DN-GUL-ACC-26",
@@ -213,7 +213,7 @@ SW-DN-GUL-ACC-29,TPLACC029,Building G
 import csv
 from pynautobot import api
 
-nb = api(url="https://nautobot.nirvorcommunication.bd", token="your-api-token")
+nb = api(url="https://nautobot.nirvor.bd", token="your-api-token")
 
 with open('new_devices.csv', 'r') as f:
     reader = csv.DictReader(f)
@@ -243,7 +243,7 @@ with open('new_devices.csv', 'r') as f:
 ```python
 from pynautobot import api
 
-nb = api(url="https://nautobot.nirvorcommunication.bd", token="your-api-token")
+nb = api(url="https://nautobot.nirvor.bd", token="your-api-token")
 
 ## ডিভাইস খুঁজুন
 device = nb.dcim.devices.get(name="SW-DN-GUL-ACC-26")
@@ -285,7 +285,7 @@ print(f"✓ IP assigned: {new_ip.address}")
 ```python
 from pynautobot import api
 
-nb = api(url="https://nautobot.nirvorcommunication.bd", token="your-api-token")
+nb = api(url="https://nautobot.nirvor.bd", token="your-api-token")
 
 ## ডিভাইস খুঁজুন
 device = nb.dcim.devices.get(name="SW-DN-GUL-ACC-26")
@@ -303,7 +303,7 @@ print(f"✓ Updated: {device.name}")
 ```python
 from pynautobot import api
 
-nb = api(url="https://nautobot.nirvorcommunication.bd", token="your-api-token")
+nb = api(url="https://nautobot.nirvor.bd", token="your-api-token")
 
 ## প্রথমে ট্যাগ খুঁজুন (বা তৈরি করুন)
 try:
@@ -337,7 +337,7 @@ for device in gulshan_devices:
 from pynautobot import api
 from datetime import datetime
 
-nb = api(url="https://nautobot.nirvorcommunication.bd", token="your-api-token")
+nb = api(url="https://nautobot.nirvor.bd", token="your-api-token")
 
 print("=" * 70)
 print(f"NirvorCommunication Bangladesh - Daily Network Report")
@@ -490,7 +490,7 @@ Report completed successfully
 ```python
 from pynautobot import api
 
-nb = api(url="https://nautobot.nirvorcommunication.bd", token="your-api-token")
+nb = api(url="https://nautobot.nirvor.bd", token="your-api-token")
 
 ## নিরাপদ উপায়ে ডিভাইস খুঁজুন
 try:
