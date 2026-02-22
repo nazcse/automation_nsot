@@ -380,8 +380,7 @@ docker exec nautobot-docker-compose-db-1 \
 
 এই পদ্ধতিতে Docker ছাড়া সরাসরি সার্ভারে Nautobot ইনস্টল করা হয়। Docker ব্যবহারের সুযোগ না থাকলে বা সম্পূর্ণ নিয়ন্ত্রণ চাইলে এই পদ্ধতি ব্যবহার করুন।
 
-https://docs.nautobot.com/projects/core/en/stable/user-guide/administration/installation/nautobot/
-
+https://aiwithr.github.io/automation_nsot/installation/
 ---
 
 ### Plugin ইনস্টলেশন
